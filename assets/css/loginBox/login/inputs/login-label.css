@@ -1,0 +1,7 @@
+.login__label {
+    margin-bottom: 0.5rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--text-base);
+}

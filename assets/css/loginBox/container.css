@@ -1,0 +1,32 @@
+.container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RESPONSIVE */
+/* Phone Only */
+@media (max-width: 599px) {
+    .container {
+        height: auto;
+    }
+}
+
+/* Tablet Portrait Up */
+@media (min-width: 600px) {
+    .container {
+        width: 100vw;
+        height: auto;
+    }
+}
+
+/* Desktop Up */
+@media (min-width: 1024px) {
+    .container {
+        width: 50vw;
+        height: 100%;
+    }
+}

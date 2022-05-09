@@ -1,0 +1,7 @@
+.--pass {
+    background: url("../../../../images/lock.svg") no-repeat scroll 6px 6px;
+}
+
+.--pass:focus {
+    background: url("../../../../images/lock-focus.svg") no-repeat scroll 6px 6px;
+}

@@ -1,0 +1,25 @@
+.login__options  {
+    width: 18rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.login__options label {
+    margin-right: 2rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: var(--text-base);
+}
+
+.login__options a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}

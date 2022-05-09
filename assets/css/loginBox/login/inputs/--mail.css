@@ -1,0 +1,7 @@
+.--mail {
+    background: url("../../../../images/mail.svg") no-repeat scroll 8px 8px;
+}
+
+.--mail:focus {
+    background: url("../../../../images/mail-focus.svg") no-repeat scroll 8px 8px;
+}

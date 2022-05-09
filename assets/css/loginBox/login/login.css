@@ -1,0 +1,28 @@
+.login {
+    width: 55%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--form-background);
+    border-radius: 5px;
+}
+
+/* RESPONSIVE */
+/* Phone Only */
+@media (max-width: 599px) {
+    .login {
+        width: 100%;
+        background-color: var(--background);
+    }
+}
+
+/* Tablet Portrait Up */
+@media (min-width: 600px) {
+    .login {
+        width: 100%;
+        background-color: var(--background);
+    }
+}

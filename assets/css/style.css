@@ -1,0 +1,15 @@
+:root {
+    --text-base: #afb6c2;
+    --text-title: #d4ccb6;
+    --background: #191816;
+    --form-background: #24221f;
+    --primary-color: #ffc632;
+    --border-input: #868686;
+    --text-btn: #473404
+}
+
+body {
+    display: flex;
+
+    background-color: var(--background);
+}

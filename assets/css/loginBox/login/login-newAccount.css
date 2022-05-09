@@ -1,0 +1,15 @@
+.login_newAccount {
+    margin-bottom: 3rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: var(--primary-color);
+    font-size: 0.8rem;
+}
+
+.login_newAccount a {
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: var(--primary-color);
+}

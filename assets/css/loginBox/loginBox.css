@@ -1,0 +1,19 @@
+.loginBox {
+    width: 50vw;
+    height: 90vh;
+}
+
+/* RESPONSIVE */
+/* Phone Only */
+@media (max-width: 599px) {
+    .loginBox {
+        width: 100vw;
+    }
+}
+
+/* Desktop Up */
+@media (min-width: 1200px) {
+    .loginBox {
+        width: 50vw;
+    }
+}
